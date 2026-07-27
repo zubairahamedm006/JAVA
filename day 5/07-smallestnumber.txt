@@ -1,0 +1,25 @@
+package day5;
+
+import java.util.*;
+
+public class smallestnumber {
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter a value:");
+        int a=input.nextInt();
+        int min=9;
+
+        while(a!=0)
+        {
+            int pop=a%10;
+            if(pop<min)
+            {
+                min=pop;
+            }
+
+            a=a/10;
+        }
+        System.out.println("the largest number is:"+min);
+
+    }
+}

@@ -1,0 +1,65 @@
+package day4;
+
+/*import java.util.*;
+public class numbercrunch{
+    public static void main (String[]args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter a value:");
+        int num=input.nextInt();
+        while(num!=0) {
+            int pop = num % 10;
+            if (pop == 0) ;
+            {
+                System.out.println(("the given input contains zero"));
+                break;
+            }
+        }
+                num=num/10;
+
+
+
+    }
+
+}
+*/
+/*import java.util.*;
+public class numbercrunch {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter a value:");
+        int num = input.nextInt();
+        System.out.println(("enter a key value:"));
+        int key = input.nextInt();
+        int count = 0;
+        while (num != 0) {
+            int pop = num % 10;
+            if (pop == key)
+            {
+                count++;
+            }
+            num=num/10;
+        }
+        System.out.println(count);
+    }
+}
+*/
+import java.sql.SQLOutput;
+/*import java.util.*;
+public class numbercrunch {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter a value:");
+        int num = input.nextInt();
+        while (num != 0) {
+            int pop = num % 10;
+            pop += num;
+        }
+        num=num/10;
+
+            System.out.println(pop);
+        }
+    }
+}*/
+
+
+
